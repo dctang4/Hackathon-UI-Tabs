@@ -1,4 +1,89 @@
-img {
-  height: 200px;
-  width: 200px;
+body {
+  margin: 0;
+  background-color: black;
 }
+
+h1 {
+  color: white;
+  font-size: 30px;
+  background-color: rgb(75, 75, 75);
+  margin: 10px 0 0 0;
+  padding: 10px 50px;
+}
+
+main {
+  background-color: white;
+  display: flex;
+  height: calc(100vh - 77px);
+
+}
+
+section {
+  margin: 10vh auto;
+  height: 70vh;
+  width: 60vw;
+  border: solid 1px rgb(110, 110, 110);
+
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  background-color: rgb(110, 110, 110);
+}
+
+li {
+  font-weight: 900;
+  width: 15vw;
+  text-align: center;
+  background-color: rgb(110, 110, 110);
+  color: white;
+  padding: 10px 0;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+}
+
+div.info-section {
+  display: none;
+}
+
+div#bulbasaur {
+  display: flex;
+}
+
+/*  ---------------------------------------------------------------  */
+
+@media screen and (max-width: 768px) {
+
+  body {
+    font-size: 13.5px;
+  }
+
+  h1 {
+    font-size: 27px;
+  }
+
+  section {
+    width: 80vw;
+  }
+
+  img {
+    height:100px;
+    width: 100px;
+  }
+
+  li {
+    width: 20vw;
+  }
+}
+
